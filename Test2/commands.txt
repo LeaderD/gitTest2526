@@ -1,0 +1,23 @@
+git tag ver1.00
+git branch special_feature
+git checkout special_feature
+grep "myhtml"  ~/Desktop/assets/myfile.bak
+nano index.html
+git add "index.html"
+git commit -m "modified index.html and modified commands.txt"
+git push origin special_feature
+grep "myjs" ~/Desktop/assets/myfile.bak | > ~/Desktop/gitTest2526/index.js
+git add "index.js"
+git commit -m "added index.js"
+git push origin special_feature
+grep "mycss" ~/Desktop/assets/myfile.bak | > ~/Desktop/gitTest2526/index.css
+git add "index.css"
+git commit -m "added index.css"
+git push origin special_feature
+git checkout master
+git merge special_feature
+git commit -m "merge special_feature with master"
+git push origin master
+git tag ver1.01
+git tag origin ver1.01
+
