@@ -1,0 +1,18 @@
+cd ~/Desktop
+mkdir Test2
+touch ~/Desktop/Test2/commands.txt
+git clone https://github.com/LeaderD/gitTest2526.git
+mv Test2 ~/Desktop/gitTest2526
+cd gitTest2526
+git add "Test2"
+git commit -m "added Test2 dir"
+git push origin master
+nano repo.txt
+git add "repo.txt"
+git commit -m "added repo.txt"
+git push origin master
+touch index.html
+nano index.html
+git add "index.html"
+git commit -m "added index.html"
+git push origin master
